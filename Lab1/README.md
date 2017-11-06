@@ -89,9 +89,9 @@ This function should not log the new paragraph, but rather concatenate and retur
 
 # Error Checking
 
-Expect and account for bad input, and handle it accordingly! You can throw "A string describing an error" when given bad input. You can read about throwing on the MDN (Links to an external site.)Links to an external site.
+Expect and account for bad input, and handle it accordingly! You can throw "A string describing an error" when given bad input. You can read about throwing on the MDN.
 
-Should throw if data is not of an expected type (Links to an external site.)Links to an external site.: ie, expecting a number and receiving an integer.
+Should throw if data is not of an expected type ie, expecting a number and receiving an integer.
 
 Should throw if your data is an out of bounds situation; ie: receiving a negative side length for certain values, or data that does not make sense given the requirements of the function.
 
