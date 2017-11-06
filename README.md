@@ -1,4 +1,5 @@
-# webDev
+# Web Programming - CS546
+Stevens Institute of Technology
 
 # LEARNING OBJECTIVES
 
