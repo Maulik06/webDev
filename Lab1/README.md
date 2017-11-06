@@ -20,9 +20,13 @@ For the second function, simple function that uses console.log to print hello to
 Function should print a string in the following format:
 
 sayHelloTo(); // throws 
+
 sayHelloTo("Phil"); // logs: Hello, Phil! 
+
 sayHelloTo("Phil", "Barresi"); //logs: Hello, Phil Barresi. I hope you are having a good day!
+
 sayHelloTo("Phil", "Barresi", "Mr."); // logs: Hello, Mr. Phil Barresi! Have a good evening!
+
 This function does not return any content.
 
 # cupsOfCoffee(howManyCups)
@@ -36,19 +40,25 @@ The lyrics of this song grow longer depending on how many cups of coffee there a
 If we run cupsOfCoffee(5) it would return:
 
 5 cups of coffee on the desk! 5 cups of coffee! 
+
 Pick one up, drink the cup, 4 cups of coffee on the desk!
 
 4 cups of coffee on the desk! 4 cups of coffee! 
+
 Pick one up, drink the cup, 3 cups of coffee on the desk!
 
 3 cups of coffee on the desk! 3 cups of coffee! 
+
 Pick one up, drink the cup, 2 cups of coffee on the desk!
 
 2 cups of coffee on the desk! 2 cups of coffee! 
+
 Pick one up, drink the cup, 1 cup of coffee on the desk!
 
 1 cup of coffee on the desk! 1 cup of coffee! 
+
 Pick it up, drink the cup, no more coffee left on the desk!
+
 This would not print any content, unless you used console.log on the result of the function.
 
 
@@ -80,6 +90,9 @@ This function should not log the new paragraph, but rather concatenate and retur
 # Error Checking
 
 Expect and account for bad input, and handle it accordingly! You can throw "A string describing an error" when given bad input. You can read about throwing on the MDN (Links to an external site.)Links to an external site.
+
 Should throw if data is not of an expected type (Links to an external site.)Links to an external site.: ie, expecting a number and receiving an integer.
+
 Should throw if your data is an out of bounds situation; ie: receiving a negative side length for certain values, or data that does not make sense given the requirements of the function.
+
 Must check that all arguments are valid and of the proper type
